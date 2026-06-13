@@ -97,6 +97,16 @@ DAY2/
 
 4.Click on Run Simulation -> Run Behavioral Simulation from the Flow Navigator to view the waveforms.
 
+## Technologies Used
+
+- Verilog HDL
+- Vivado Design Suite
+- GitHub
+
+## Purpose
+
+This repository is maintained to document and organize all designs, simulations, testbenches, and reports completed during the internship.
+
 ### Day 3
 Face Detector
 Sequence Detector
@@ -107,13 +117,3 @@ Block Memory Generator
 ### Day 5
 Bcd Adder Interface
 FIFO Interface
-
-## Technologies Used
-
-- Verilog HDL
-- Vivado Design Suite
-- GitHub
-
-## Purpose
-
-This repository is maintained to document and organize all designs, simulations, testbenches, and reports completed during the internship.
