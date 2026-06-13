@@ -43,8 +43,7 @@ TKM_INTERNSHIP
 ### Day 1
 - 4-Bit Ripple Carry Adder
 - BCD Counter
-
-### Day 2
+  
 # Day 2: Decoders, Flip-Flops & Shift Registers
 
 ## Overview
@@ -97,6 +96,17 @@ DAY2/
 3.Add the corresponding testbench files (e.g., tb_decoder.v, tb_d_ff.v, etc.) as Simulation Sources.
 
 4.Click on Run Simulation -> Run Behavioral Simulation from the Flow Navigator to view the waveforms.
+
+### Day 3
+Face Detector
+Sequence Detector
+
+### Day 4
+Block Memory Generator
+
+### Day 5
+Bcd Adder Interface
+FIFO Interface
 
 ## Technologies Used
 
