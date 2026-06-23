@@ -113,7 +113,12 @@ Rectified status flag generation logic using a dynamic element counter to unlock
 * BCD Interfacing
 Engineered and integrated binary-coded decimal communication logic to facilitate synchronized, multi-digit numeric data conversions and stable display-driver interactions.
 
-## Day6:FIFO transaction class
+## Day6: FIFO transaction class
+## Day7: APB Protocol
+
+## PROJECT
+
+During my internship , I worked on optimizing an AES-128 encryption core based on an open-source RTL implementation. The original design utilized a fully unrolled architecture with ten dedicated AES round modules and multiple key expansion units, resulting in high hardware resource utilization. To improve efficiency, I redesigned the core using an FSM-controlled iterative architecture, enabling a single AES Round module to be reused across all ten encryption rounds. I also implemented on-the-fly key expansion, replacing multiple key generation blocks with a single reusable KeyExpansion module controlled by a round counter and Rcon lookup table. Furthermore, I optimized the MixColumns transformation through algebraic restructuring and shared intermediate computations, reducing combinational logic complexity and improving timing characteristics. These enhancements resulted in significant reductions in FPGA area utilization and power consumption while preserving full AES-128 functional correctness and achieving timing closure at the target frequency of 100 MHz.
 
 **How to Run in Vivado**
 
