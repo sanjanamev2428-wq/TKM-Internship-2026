@@ -106,7 +106,7 @@ Integrated status tracking flags (full and empty) alongside internal pointer con
 * Engineered a synchronous single-port RAM architecture featuring parameterized byte-wide data paths and independent address tracking.
 * Integrated an asynchronous active-low reset loop to safely initialize the internal memory matrix configurations.
 
-## Day5:FIFO interfacing,BCD interfacing
+## Day5: FIFO interfacing,BCD interfacing
 
 * FIFO Interfacing
 Rectified status flag generation logic using a dynamic element counter to unlock 100% buffer capacity, resolving critical boundary alignment bugs between read/write pointer wraparounds.
