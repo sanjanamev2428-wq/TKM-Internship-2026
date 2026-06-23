@@ -29,12 +29,12 @@ https://github.com/Shehab-Naga/AES-128
 
 ### Original Design
 
-The original AES core instantiated separate hardware for each encryption round.
+The original AES core instantiated separate hardware for each encryption round.<br>
 Round1 -> Round2 -> Round3 -> ... -> Round10
 
 ### Optimized Design
 
-A single AES Round module is reused across all rounds using an FSM-controlled iterative architecture.
+A single AES Round module is reused across all rounds using an FSM-controlled iterative architecture.<br>
 +---------+
 State --->| Round |----+
 +---------+ |
@@ -179,7 +179,7 @@ A SystemVerilog verification environment was developed consisting of:
 
 ---
 
-# Sample Test Vector
+## Sample Test Vector
 
 ### Plaintext
 00112233445566778899AABBCCDDEEFF
@@ -187,10 +187,10 @@ A SystemVerilog verification environment was developed consisting of:
 ### Key
 000102030405060708090A0B0C0D0E0F
 
-### Ciphertext
+### Expected Ciphertext
 69C4E0D86A7B0430D8CDB78070B4C55A
 
-Result: PASS
+Result: PASS ✓
 
 ---
 
